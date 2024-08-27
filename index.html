@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title> Gerador de Senhas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Gerador de Senhas</h2>
+        <div class="caixa">
+            <div class="caixa-input">
+                <input type="text" disabled>
+                <span class="material-symbols-rounded">copy_all</span>
+            </div>
+            <div class="indicador-senha"></div>
+            <div class="tamanho-senha">
+                <div class="detalhes">
+                    <label class="titulo">Tamanho da Senha</label>
+                    <span></span>
+                </div>
+                <input type="range" min="1" max="30" value="15" step="1">
+            </div>
+
+            <div class="configuracoes-senha">
+                <label class="titulo">Configurações de Senha</label>
+                <ul class="opcoes">
+                    <li class="opcao">
+                        <input type="checkbox" id="minusculas" checked>
+                        <label for="minusculas">Minúsculas (a-z)</label>
+                    </li>
+                    <li class="opcao">
+                        <input type="checkbox" id="maiusculas">
+                        <label for="maiusculas">Maiúsculas (A-Z)</label>
+                    </li>
+                    <li class="opcao">
+                        <input type="checkbox" id="numeros">
+                        <label for="numeros">Números (0-9)</label>
+                    </li>
+                    <li class="opcao">
+                        <input type="checkbox" id="simbolos">
+                        <label for="simbolos">Símbolos (!-$^+)</label>
+                    </li>
+                    <li class="opcao">
+                        <input type="checkbox" id="excluir-duplicados">
+                        <label for="excluir-duplicados">Excluir Duplicados</label>
+                    </li>
+                    <li class="opcao">
+                        <input type="checkbox" id="espacos">
+                        <label for="espacos">Incluir Espaços</label>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="btn-gerar">Gerar Senha</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
