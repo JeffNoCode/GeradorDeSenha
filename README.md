@@ -33,7 +33,7 @@ Bem-vindo ao **Gerador de Senhas Seguras**! Este projeto foi desenvolvido com o 
 
    ## 📧 Contato
 
-    Se você tiver alguma dúvida ou sugestão, pode me encontrar em [jeffsouza.dev2@gmail.com](mailto:jeffsouza.dev2@gmail.com)
+    Se você tiver alguma dúvida ou sugestão, pode me mandar em [jeffsouza.dev2@gmail.com](mailto:jeffsouza.dev2@gmail.com)
 
    
   
